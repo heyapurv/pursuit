@@ -19,7 +19,7 @@ export default function GradientAnim() {
           </p>
           <div className="absolute mt-40 text-xl flex">
             {/* <CommingSoon/> */}
-            <span className="mx-8">
+            <span className="mr-8">
               <HyperText
                 className="text-2xl bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20"
                 text="C"
