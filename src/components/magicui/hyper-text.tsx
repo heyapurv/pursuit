@@ -19,7 +19,7 @@ const getRandomInt = (max: number) => Math.floor(Math.random() * max);
 
 export default function HyperText({
   text,
-  duration = 8000,
+  duration = 800,
   framerProps = {
     initial: { opacity: 0, y: -10 },
     animate: { opacity: 1, y: 0 },
@@ -56,13 +56,13 @@ export default function HyperText({
                   : alphabets[getRandomInt(26)],
             ),
           );
-          interations.current = interations.current + 50;
+          interations.current = interations.current + 0.1;
         } else {
           setTrigger(false);
           clearInterval(interval);
         }
       },
-      duration + 2 / (text.length * 1),
+      duration / (text.length * 10),
     );
     // Clean up interval on unmount
     return () => clearInterval(interval);
@@ -70,7 +70,7 @@ export default function HyperText({
 
   return (
     <div
-      className="overflow-hidden py-2 flex cursor-default scale-110"
+      className="overflow-hidden py-2 flex cursor-default scale-100"
       onMouseEnter={triggerAnimation}
     >
       <AnimatePresence mode="wait">
