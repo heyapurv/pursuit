@@ -34,7 +34,7 @@ export default function GradientAnim() {
             <span className="mx-8">
               <HyperText
                 className="text-2xl bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20"
-                text="O"
+                text="M"
               />
             </span>
             <span className="mx-8">
@@ -61,7 +61,9 @@ export default function GradientAnim() {
                 text="G"
               />
             </span>
-            <span className="mx-8">
+           <div className="ml-10  flex">
+            
+           <span className="mx-8">
               <HyperText
                 className="text-2xl bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20"
                 text="S"
@@ -85,6 +87,7 @@ export default function GradientAnim() {
                 text="N"
               />
             </span>
+           </div>
           </div>
         </div>
       </div>
