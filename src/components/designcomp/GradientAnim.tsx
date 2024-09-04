@@ -93,13 +93,13 @@ export default function GradientAnim() {
       </div>
       <div className="block md:hidden">
         <div className="  absolute z-50 inset-0 flex flex-col items-center justify-center text-white font-bold pointer-events-none   ">
-          <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-[94px] ">
+          <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-[78px] ">
             PURSUIT
           </p>
           <p className=" mx-5 bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-6xl my-5">
             X
           </p>
-          <p className="mx- bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-8xl">
+          <p className="mx- bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-[78px]">
             2025
           </p>
           <CommingSoon />
